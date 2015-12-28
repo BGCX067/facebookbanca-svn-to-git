@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<skitter>
+	<slide>
+		<link>#directionTop</link>
+		<image type="directionTop">https://www.google.com.vn/intl/vi_ALL/images/logos/images_logo_lg.gif</image>
+		<label><![CDATA[<p>directionTop</p>]]></label>
+	</slide>
+	<slide>
+		<link>#cubeSize</link>
+		<image type="cubeSize">https://www.google.com.vn/intl/vi_ALL/images/logos/images_logo_lg.gif</image>
+		<label><![CDATA[<p>cubeSize</p>]]></label>
+	</slide>
+	<slide>
+		<link>#paralell</link>
+		<image type="paralell">https://www.google.com.vn/intl/vi_ALL/images/logos/images_logo_lg.gif</image>
+		<label><![CDATA[<p>paralell</p>]]></label>
+	</slide>
+</skitter>

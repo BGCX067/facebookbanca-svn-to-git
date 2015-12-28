@@ -1,0 +1,11 @@
+swap(int *a, int *b)
+{
+	*a = &b;
+	&b = &a;
+	&a = *b;
+}
+
+int p1 = 3;
+int p2 = 4;
+
+swap(&p1, &p2)

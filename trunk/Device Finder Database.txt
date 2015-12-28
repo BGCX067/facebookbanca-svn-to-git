@@ -1,0 +1,36 @@
+﻿Database
+
+Table
+
+	User (lưu thông tin người dùng và thiết lập tài khoản)
+		Email (Primary Key) - Lưu email đăng nhập của người dùng
+		Password - Lưu Password của người dùng đã được mã hóa
+		
+	Device (lưu thông tin thiết bị và thiết lập tùy chọn cho thiết bị)
+		IDDevice (Primary Key) - ID thiết bị
+		Name - Tên thiết bị
+		Type - Loại thiết bị 
+		IsFollow - Có theo dõi thiết bị này không - Nếu có mới theo dõi. Không có bỏ luôn
+		HomePage - Lưu địa chỉ trang sẽ được chuyển tới sau khi người dùng khởi động trình duyệt ( Khởi động trình duyệt -> Device Finder Start page -> HomePage of User).
+		IsUninstall - (default false) Tự động xóa chương trình Client ra khỏi máy
+	int	WebcamCapture - (default false) 0 =  khỏi chụp. Số giây Cho phép Tự động chụp ảnh trên khoản thời gian người dùng định sẵn rồi gửi qua email
+		Message - Thông điệp hiển thị trên Homepage trong trường hợp mất máy
+		IsCommandActive - Cho phép thực hiện câu lệnh được người dùng chỉ định trước
+		
+	Command
+		IDDevice (Foreign Key) 
+		Command - Lệnh sẽ được thực hiện.
+		AddedDate - Ngày giờ phút giây thêm command (thực hiện tuần tự).
+		IsDone - Đã thực hiện xong.
+	
+	UserDevice (mapping giữa người dùng với thiết bị)
+		UserEmail (foreign key) Phải viết vầy ko mầy :))
+		IDDevice (foreign key)
+		
+	TrackLog
+		IDDevice(Foreign Key)
+		Latitude
+		Longtitude
+		IPAddress
+		TimeLog
+	

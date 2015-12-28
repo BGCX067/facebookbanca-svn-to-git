@@ -1,0 +1,3 @@
+@charset "utf-8";
+@font-face {font-family: "SFUGillSansRegular";font-style: normal;font-weight: 400;src: url("../font/SFUHelveticaLight.woff") format("woff"), url("../font/SFUHelveticaLight.TTF") format("truetype");}
+@font-face {font-family: "SFUGillSansBold";font-style: normal;font-weight: bolder;src: url("../font/SFUHelveticaBold.woff") format("woff"), url("../font/SFUHelveticaBold.TTF") format("truetype");}

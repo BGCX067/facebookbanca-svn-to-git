@@ -1,0 +1,23 @@
+<?wpl version="1.0"?>
+<smil>
+    <head>
+        <meta name="Generator" content="mhdphim.com - http://mhdphim.com/Home/Film/175"/>
+        <meta name="ItemCount" content="0"/>
+        <meta name="IsFavorite"/>
+        <meta name="ContentPartnerListID"/>
+        <meta name="ContentPartnerNameType"/>
+        <meta name="ContentPartnerName"/>
+        <meta name="Subtitle"/>
+        <author/>
+        <title>mhdphim.com - Thai Cuc Quyen</title>
+    </head>
+    <body>
+        <seq>
+            <media src="http://upfile.vn/Jis?d=1"/>
+            <media src="http://upfile.vn/Jiy?d=1"/>
+			<media src="http://upfile.vn/19jv?d=1"/>
+			<media src="http://upfile.vn/19jx?d=1"/>
+			<media src="http://upfile.vn/19jD?d=1"/>
+        </seq>
+    </body>
+</smil>
